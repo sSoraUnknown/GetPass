@@ -56,7 +56,7 @@ def Destruct(num):
     num1 = (num//1000)%10
 
 def Start():
-    for x in range(3626                     ,10001):
+    for x in range(3626,10001):
         if(len(str(x))<2):
             number = "000"+str(x)
         elif(len(str(x))<3):
