@@ -14,34 +14,26 @@ def MoveTo(number):
     match number:
         case 1:
             mouses.move(600,305) #1
-            MouseClick()
         case 2:
             mouses.move(685,305) #2
-            MouseClick()
         case 3:
             mouses.move(770,305) #3
-            MouseClick()
         case 4:
             mouses.move(600,395) #4
-            MouseClick()
         case 5:
             mouses.move(685,395) #5
-            MouseClick()
         case 6:
             mouses.move(770,395) #6
-            MouseClick()
         case 7:
             mouses.move(600,480) #7
-            MouseClick()
         case 8:
             mouses.move(685,480) #8
-            MouseClick()
         case 9:
             mouses.move(770,480) #9
-            MouseClick()
         case 0:
             mouses.move(600,565) #0
-            MouseClick()
+    MouseClick()
+        
 
 
 def Destruct(num):
